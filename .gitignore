@@ -1,0 +1,44 @@
+# Dependencies and local tooling
+node_modules/
+.pnp/
+.pnp.js
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+**/telegram-config.php
+**/telegram-setup*.php
+**/.telegram-chat-id
+**/odeyalko-private/
+
+# Logs, caches, temporary files and local build output
+*.log
+*.log.*
+logs/
+tmp/
+bin-tmp/
+.cache/
+cache/
+.next/
+dist/
+build/
+coverage/
+
+# Hosting/server metadata outside the web project
+../php-bin/
+../php-bin-regru-php83/
+
+# Archives and backups, including the source ZIPs
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.bak
+*.backup

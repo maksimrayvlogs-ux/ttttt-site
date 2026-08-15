@@ -1,0 +1,15 @@
+<?php
+/**
+ * одеялко — ПРИМЕР закрытого конфига Telegram.
+ *
+ * НЕ заполняйте этот файл в публичной папке сайта!
+ * Скопируйте его ВЫШЕ document root:
+ *   /www/xn--d1acpdme0j.shop/../odeyalko-private/telegram-config.php
+ * (то есть рядом с папкой www, в каталоге odeyalko-private)
+ * и заполните значения там.
+ */
+return array(
+  'TELEGRAM_BOT_TOKEN' => '',   /* токен бота от @BotFather */
+  'TELEGRAM_CHAT_ID'   => '',   /* заполнится автоматически скриптом telegram-setup.php */
+  /* 'TELEGRAM_API_BASE' => '', — только для локальных тестов, в production не указывать */
+);

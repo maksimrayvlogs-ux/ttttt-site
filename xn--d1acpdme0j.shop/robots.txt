@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /api/
+
+Sitemap: https://xn--d1acpdme0j.shop/sitemap.xml
